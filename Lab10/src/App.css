@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.Content {
+  background-color: rgb(128, 0, 255);
+  text-align: center;
+  padding: 120px;
+
+}
+
+button{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.btn-increment:hover {
+  background-color: #3e27ee;
+  box-shadow: 0 0 10px #3e27ee, 0 0 40px #3e27ee,
+  0 0 80px #3e27ee;
+  transition-delay: 0.1s;
+}
+
+.btn-decrement:hover {
+  background-color: #e94545;
+  box-shadow: 0 0 10px #e94545, 0 0 40px #e94545,
+  0 0 80px #e94545;
+  transition-delay: 0.1s;
+}
+
